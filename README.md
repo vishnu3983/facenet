@@ -4,6 +4,12 @@ sudo pip3 install -r requirements.txt
 
 
 
+DOWNLOAD AND EXTRACT THE PRE-TRAINED MODEL FOLDER: 
+https://drive.google.com/file/d/1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-/view
+
+COMPARE TWO IMAGES:
+python3 compare.py 20180402-114759/ test-images/v1.jpg test-images/v2.jpg --image_size 160 --margin 32 --gpu_memory_fraction 0
+
 PREPROCESSING:
 sudo python3 align_dataset_mtcnn.py raw/ aligned/ --image_size 160 --margin 32
 
