@@ -1,0 +1,7 @@
+arguments: align_dataset_mtcnn.py facenet/dataset/raw/ facenet/dataset/aligned/ --image_size 160 --margin 32
+--------------------
+tensorflow version: 1.5.0
+--------------------
+git hash: b''
+--------------------
+b''
